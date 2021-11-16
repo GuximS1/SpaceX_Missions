@@ -7,5 +7,6 @@ export default function Home() {
     <h1>Homepage</h1>
           <p>Here u can see the missions of SpaceX!</p>
     </div>
+    
   )
 }
