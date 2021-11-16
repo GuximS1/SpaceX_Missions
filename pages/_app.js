@@ -7,18 +7,26 @@ function MyApp({ Component, pageProps }) {
   return( <Layout>
     <Particles
         params={{
+          
           fpsLimit: 60,
           particles: {
             color: {
-              value: "black"
+              value: "#ffffff",
             },
             links: {
+              color: "#FFFFFF",
+              distance: 150,
               enable: true,
-              color: "#000",
-              distance: 150
+              opacity: 0.5,
+              width: 1,
             },
             move: {
-              enable: true
+              direction: "none",
+              enable: true,
+              outMode: "bounce",
+              random: false,
+              speed: 6,
+              straight: false,
             }
           }
         }}
