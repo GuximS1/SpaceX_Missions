@@ -1,7 +1,5 @@
 /* eslint-disable */
 import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -11,27 +9,16 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import imageSource from "../public/56412099_303.jpg"
 import Image from 'next/image'
-const styles = {
-  card: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 140,
-  },
-  boldness:{
-    color:'white'
-  }
-};
 
-function Home(props) {
-  const { classes } = props;
+
+function Home() {
   return (
   <div>
-    <h1 className={classes.boldness}>SpaceX Past Launches</h1>
-    <Card className={classes.card}>
+    <h1 style={{color:'white'}}>SpaceX Past Launches</h1>
+    <Card style={{maxWidth:350}}>
       <CardActionArea>
-      <Image
-        alt="Mountains"
+        <Image
+        alt="SpaceX"
         src={imageSource}
         objectFit="cover"
         quality={100}
@@ -50,8 +37,5 @@ function Home(props) {
   );
 }
 
-Home.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
-export default withStyles(styles)(Home);
+export default Home;

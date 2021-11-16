@@ -1,6 +1,5 @@
 /* eslint-disable */
 import Particles from "react-tsparticles";
-import particleData from "./particleData";
 export default function particleBackground() {
     return (
       <Particles

@@ -2,12 +2,11 @@
 import '../styles/globals.css'
 import Layout from '../components/Layout'
 import Particles from "react-tsparticles";
-import { tsParticles } from "tsparticles";
+
 function MyApp({ Component, pageProps }) {
   return( <Layout>
     <Particles
         params={{
-          
           fpsLimit: 60,
           particles: {
             color: {
