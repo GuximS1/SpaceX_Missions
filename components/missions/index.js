@@ -13,17 +13,8 @@ const ALL_MISSIONS = gql`
 {
     launchesPast(limit: 10) {
       mission_name
-      rocket {
-        rocket_name
-      }
-      ships {
-        name
-        image
-      }
       details
       id
-      launch_success
-      launch_date_local
       links {
         flickr_images
       }
@@ -46,7 +37,7 @@ export default function Missions() {
             photo="https://statik.tempo.co/data/2020/05/31/id_941947/941947_720.jpg";
           }
           return(
-          <div>
+          <div className="myCards">
             <Link href={'/missions/' + missions["id"]} key={missions["id"]}>
             <Card style={{maxWidth:450,marginBottom:20,height:400}}>
                 <CardActionArea>

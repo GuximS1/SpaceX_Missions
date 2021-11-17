@@ -6,7 +6,7 @@ function Home() {
   return (
   <div>
     <h1 style={{color:'white'}}>SpaceX Past Launches</h1>
-    <Missions/>
+   <div className='myCards'><Missions/></div> 
     </div>
   );
 }
