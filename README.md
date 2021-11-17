@@ -21,3 +21,5 @@ All the dependencies used in this project are :
         "tsparticles": "^1.37.3"
 ```
 Also the node version that i used in this project is v16.8.0
+
+If for reason the project doesn't run, i deployed it here https://space-x-missions.vercel.app/
