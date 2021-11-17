@@ -20,3 +20,4 @@ All the dependencies used in this project are :
         "react-tsparticles": "^1.37.3",
         "tsparticles": "^1.37.3"
 ```
+Also the node version that i used in this project is v16.8.0
