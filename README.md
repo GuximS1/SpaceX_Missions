@@ -10,7 +10,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 All the dependencies used in this project are :
- "@apollo/client": "^3.4.17",
+ ```"@apollo/client": "^3.4.17",
         "@material-ui/core": "^4.12.3",
         "graphql": "^15.7.2",
         "next": "12.0.4",
@@ -19,3 +19,4 @@ All the dependencies used in this project are :
         "react-player": "^2.9.0",
         "react-tsparticles": "^1.37.3",
         "tsparticles": "^1.37.3"
+```
